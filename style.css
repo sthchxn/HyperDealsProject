@@ -1,0 +1,123 @@
+/* style.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    flex: 1;
+}
+
+.sidebar {
+    flex: 1;
+    background: #eee;
+    padding: 15px;
+}
+
+.content {
+    flex: 3;
+    background: white;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#eeeee4;
+}
+
+.invoice {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: auto;
+}
+
+marquee {
+    top: 100px;      /* geser ke bawah setelah navbar */
+    left: 0;
+    width: 100%;
+    background: #133e87;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    z-index: 1000;
+    
+}
+body {
+    display:flex;
+    flex-direction: column;
+
+}
+
